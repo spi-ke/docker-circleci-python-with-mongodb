@@ -1,7 +1,7 @@
 Docker image circleci/python with MongoDB
 =========================================
 
-Docker Hub: [messa/circleci-python-with-mongodb](https://hub.docker.com/r/messa/circleci-python-with-mongodb/)
+Docker Hub: [spi-ke/circleci-python-with-mongodb](https://hub.docker.com/r/spi-ke/circleci-python-with-mongodb/)
 
 Usage
 -----
@@ -12,12 +12,13 @@ In your `.circleci/config.yml`:
 jobs:
     build:
         docker:
-            - image: messa/circleci-python-with-mongodb:3.6
+            - image: spi-ke/circleci-python-with-mongodb:3.6
 ```
 
 Available tags:
 
-- `messa/circleci-python-with-mongodb:latest`
-- `messa/circleci-python-with-mongodb:3.6`
-- `messa/circleci-python-with-mongodb:3.5`
-- `messa/circleci-python-with-mongodb:3.4`
+- `spi-ke/circleci-python-with-mongodb:latest`
+- `spi-ke/circleci-python-with-mongodb:3.6`
+- `spi-ke/circleci-python-with-mongodb:3.6`
+- `spi-ke/circleci-python-with-mongodb:3.5`
+- `spi-ke/circleci-python-with-mongodb:3.4`
